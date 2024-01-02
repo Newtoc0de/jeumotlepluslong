@@ -1,0 +1,14 @@
+<h1> Résultat </h1>
+
+  <% if @included %>
+    <% if @english_word %>
+      <p> Bravo, <%= @word %> est valide ! </p>
+      <% else %>
+        <p> Désolé mais <%= @word %> n'est pas un mot anglais valide </p>
+      <% end %>
+      <% else %>
+          <p> Désolé mais <%= @word %> ne peut être construit avec les lettres suivantes : <%= @letters %> </p>
+      <% end %>
+
+
+<%= link_to "Rejouer", new_path%>
