@@ -33,9 +33,13 @@ h1 {
 }
 
 .letters li {
-  background-color: #0d6efd;
+  background-color: #fd0d8d;
   color: white;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   padding: 4px 12px;
   display: inline;
+}
+
+.form-prefix {
+  margin-top: 2em;
 }
